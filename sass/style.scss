@@ -168,3 +168,43 @@ section .par{
 	margin: 0px;
 	padding-bottom: 20px;
 }
+
+/*footer*/
+footer{
+
+	text-align: center;
+	margin: 48px;
+	}
+
+footer i {
+	font-size: 15px;
+	background-color: black;
+	color: white;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	line-height: 60px;
+	padding-top: 14px;
+	margin: 10px;
+	transition: transform 1s;
+	transition: background 1s;
+	}
+
+footer i:hover{
+	background: #444;
+	transform: scale(1.2);
+
+	}
+
+footer ul{
+	display: flex;
+    justify-content: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0px;
+	}
+
+footer ul li{
+	flex: 0 0 0.333;
+	}
