@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  color: #444444;
+}
+
+section {
+  padding: 96px 0;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0px;
+  color: black;
+}
+
+h3 {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-style: italic;
+}
+
+/*navigation*/
+.navigation {
+  position: absolute;
+  padding: 12px 0;
+  z-index: 5;
+  width: 100%;
+}
+
+.navigation ul {
+  padding: 15px 0 0 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: right;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 0 15px 0 0;
+  position: relative;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navigation a:hover {
+  color: black;
+}
+
+.brand a {
+  color: #fbc501;
+  font-size: 30px;
+  font-style: italic;
+}
+
+/*header*/
+.head {
+  background-image: url("https://i.postimg.cc/pXq3wgHW/pexels-the-lazy-artist-gallery-4219123.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 700px;
+  position: relative;
+  z-index: 1;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.page h2 {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 300;
+  color: white;
+}
+
+.page h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.button {
+  margin-top: 30px;
+  width: 200X;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #fbc501;
+  color: white;
+  text-transform: uppercase;
+  border: 2px solid #fbc401;
+  transition: background 1s;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #FFA500;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFNBQVM7RUFDVCxlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLG9DQUFvQztFQUN2Qyx1QkFBdUI7RUFDdkIsY0FBYztBQ0NmOztBREVBO0VBQ0ksZUFBZTtFQUNsQixrQkFBa0I7QUNDbkI7O0FERUE7RUFDQyxpQkFBaUI7RUFDakIsZUFBZTtFQUNmLFdBQVc7RUFDWCxZQUFZO0FDQ2I7O0FERUE7RUFDQyxZQUFZO0VBQ1osb0NBQW9DO0FDQ3JDOztBREVDO0VBQ0Msa0JBQWlCO0FDQ25COztBREVBLGFBQUE7QUFDQTtFQUNJLGtCQUFrQjtFQUNsQixlQUFlO0VBQ2xCLFVBQVU7RUFDVixXQUFXO0FDQ1o7O0FERUE7RUFDSSxtQkFBbUI7RUFDbkIsU0FBUztFQUNULHFCQUFxQjtFQUN4QixpQkFBaUI7QUNDbEI7O0FERUE7RUFDSSxxQkFBcUI7RUFDckIsa0JBQWtCO0VBQ2xCLGtCQUFrQjtBQ0N0Qjs7QURFQTtFQUNJLHFCQUFxQjtFQUNyQixjQUFjO0FDQ2xCOztBREVBO0VBQ0MsWUFBWTtBQ0NiOztBREVBO0VBQ0MsY0FBYztFQUNkLGVBQWU7RUFDZixrQkFBa0I7QUNDbkI7O0FERUEsU0FBQTtBQUNBO0VBQ0MsaUdBQWlHO0VBQ2pHLGtDQUFrQztFQUNsQyxzQkFBc0I7RUFDdEIsYUFBYTtFQUNiLGtCQUFrQjtFQUNsQixVQUFVO0FDQ1g7O0FERUE7RUFDQyxrQkFBa0I7RUFDZixXQUFXO0VBQ1gsUUFBUTtFQUNSLFNBQVM7RUFDVCxnQ0FBK0I7RUFDbEMsa0JBQWtCO0FDQ25COztBREVBO0VBQ0MsZUFBZTtFQUNmLGtCQUFrQjtFQUNsQixnQkFBZ0I7RUFDaEIsWUFBWTtBQ0NiOztBREVBO0VBQ0MsWUFBWTtFQUNaLGVBQWU7QUNDaEI7O0FERUE7RUFDQyxnQkFBZ0I7RUFDaEIsV0FBVztFQUNYLGFBQWE7RUFDYixlQUFlO0VBQ2YseUJBQXlCO0VBQ3pCLFlBQVk7RUFDWix5QkFBeUI7RUFDekIseUJBQXlCO0VBQ3pCLHlCQUF5QjtFQUN6QixrQkFBa0I7QUNDbkI7O0FERUE7RUFDQyx5QkFBeUI7QUNDMUIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
