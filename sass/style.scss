@@ -5,28 +5,28 @@ body{
     font-family: 'Open Sans', sans-serif;
 	background-color: white;
 	color: #444444;
-	}
+}
 
 section{
     padding: 96px 0;
 	text-align: center;
-    }
+}
 
 h2{
 	font-weight: bold;
 	font-size: 40px;
 	margin: 0px;
 	color: black;
-	}
+}
 
 h3{
 	color: black;
 	font-family: 'Open Sans', sans-serif;
-	}
+}
 	
-	p {
-		font-style:italic;
-	}
+p {
+	font-style:italic;
+}
 
 /*navigation*/
 .navigation{
@@ -34,35 +34,35 @@ h3{
     padding: 12px 0;
 	z-index: 5;
 	width: 100%;
-    }
+}
     
 .navigation ul{
     padding: 15px 0 0 0;
     margin: 0;
     list-style-type: none;
 	text-align: right;
-    }
+}
     
 .navigation li{
     display: inline-block;
     margin: 0 15px 0 0;
     position: relative;
-    }
+}
     
 .navigation a{
     text-decoration: none;
     color: #ffffff;
-    }
+}
     
 .navigation a:hover{
 	color: black;
-	}
+}
 
 .brand a{
 	color: #fbc501;
 	font-size: 30px;
 	font-style: italic;
-	}
+}
 
 /*header*/
 .head{
@@ -72,7 +72,7 @@ h3{
 	height: 700px;
 	position: relative;
 	z-index: 1;
-	}
+}
 
 .page {
 	position: absolute;
@@ -81,7 +81,7 @@ h3{
     left: 50%;
     transform: translate(-50%,-50%);
 	text-align: center;
-	}
+}
 	
 .page h2{
 	font-size: 40px;
@@ -93,7 +93,7 @@ h3{
 .page h1{
 	color: white;
 	font-size: 70px;
-	}
+}
 
 .button{
 	margin-top: 30px;
@@ -106,11 +106,11 @@ h3{
 	border: 2px solid #fbc401;
 	transition: background 1s;
 	border-radius: 5px;
-    }
+}
 
 .button:hover {
 	background-color: #FFA500;
-    }
+}
 
 /*services*/
 .services .row i {
@@ -123,18 +123,18 @@ h3{
     line-height: 60px;
     color: #fbc531;
     border-radius: 50%;
-	}
+}
 
-section .par{
+section p{
 	margin: 0px 0 60px 0px;
-	}
+}
 .services i{
 	transition: transform 1s;
-	}
+}
 
 .services i:hover{
 	transform: scale(1.2);
-	}
+}
 	
 	/*our portfolio*/
 .our-portfolio {
@@ -174,7 +174,7 @@ footer{
 
 	text-align: center;
 	margin: 48px;
-	}
+}
 
 footer i {
 	font-size: 15px;
@@ -188,13 +188,12 @@ footer i {
 	margin: 10px;
 	transition: transform 1s;
 	transition: background 1s;
-	}
+}
 
 footer i:hover{
 	background: #444;
 	transform: scale(1.2);
-
-	}
+}
 
 footer ul{
 	display: flex;
@@ -203,11 +202,11 @@ footer ul{
 	margin: 0;
 	padding: 0;
 	font-size: 0px;
-	}
+}
 
 footer ul li{
 	flex: 0 0 0.333;
-	}
+}
 	
 /*media*/
 @media (max-width: 992px) {	
@@ -238,7 +237,7 @@ footer ul li{
 		display: block;
 		padding: 10px;
 		text-align: center;
-		}
+	}
 
 	.brand{
 		padding: 10px;
